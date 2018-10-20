@@ -1,0 +1,130 @@
+body {
+	background:#999;
+	font-family: arial;
+	margin: 0;
+}
+
+header{
+	background: black;
+	padding: 10px 0px 0px 0px;
+}
+
+header h1 {
+	color: firebrick;
+	margin: 0;
+}
+
+a{
+	color: yellow;
+}
+
+p  {
+	color: white;
+	padding: 10px;
+}
+
+ul li{
+	display: inline-block;
+	padding: 10px;
+	border-radius: 15px;
+	
+}
+
+button {
+	display: inline-block;
+	background: red;
+	
+}
+
+/* COMMUNNITY Dropdown Button and Text*/
+.dropbtn {
+    background-color: red;
+    color: yellow;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+
+/*  MAP Dropdown Button and Text*/
+.mapdropbtn {
+    background-color: red;
+    color: yellow;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* MAP   Dropdown button on hover & focus */
+.mapdropbtn:hover, .dropbtn:focus {
+    background-color: White;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.mapdropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.mapdropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.mapdropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.mapdropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.mapshow {display:block;}

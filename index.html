@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		
+<title>Pokemon Go Community, Trader & Tracker</title>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
+
+	</head>
+
+<body>
+	<header>
+		<h1>Pokemon Go Community, Trader & Tracker</h1>
+
+		<ul>
+					<button><li><a href="Login.html">Login</a></li></button>
+
+<!--Community Forums-->			
+			<div class="dropdown">
+			  <button onclick="myFunction()" class="dropbtn">Community Forums</button>
+			  	<div id="myDropdown" class="dropdown-content">	
+					<li><a href="#">Discords</a></li>
+					<li><a href="#">Facebook Pages</a></li>
+					<li><a href="#">Trading</a></li>
+					<li><a href="#">General Discussion</a></li>
+					<li><a href="Community.html">Explore</a></li>
+		  		</div>
+			</div>
+
+<!--Map Dropdowns-->
+			<div class="dropdown">
+			  <button onclick="map1()" class="mapdropbtn">Maps</button>
+			  	<div id="mapmyDropdown" class="mapdropdown-content">	
+					<li><a href="Map.html">Map Spawns</a></li>
+					<li><a href="#">Pokestops & Gyms</a></li>
+		  		</div>
+			</div>
+
+					<button><li><a href="http://origin.pokemongo.com/">Official Pokemon Go Site</a></li></button>
+					<button><li><a href="ContactUs.html">Contact Us</a></li></button>
+		</ul>
+	</header>
+
+
+	<p>Welcome to the PokéComm. Add your trainer codes and start building a great community we can all share.</p>
+
+
+	<FOOTER>
+		<p>Pokémon And All Respective Names are Trademark & © of Nintendo 1996-2018	Pokémon GO is Trademark & © of Niantic, Inc.<br>PokéComm is not affiliated with Niantic Inc., The Pokemon Company, or Nintendo. </p>
+	</FOOTER>
+
+
+
+
+
+<script type="text/javascript">
+
+/* COMMUNITY FORUMS    When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+/* MAPS    When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function map1() {
+    document.getElementById("mapmyDropdown").classList.toggle("mapshow");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.mapdropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("mapdropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('mapshow')) {
+        openDropdown.classList.remove('mapshow');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+
+
+
+
+
+</html>

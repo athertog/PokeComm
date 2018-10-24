@@ -7,4 +7,4 @@ The main buttons need to look the same.
 
 Again I am brand new to this so I keep search for things that will help and testing them.
 
-Tahnk you for the help.
+Thank you for the help.
